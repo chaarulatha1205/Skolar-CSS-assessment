@@ -1,0 +1,18 @@
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    animation: slide 3s infinite;
+}

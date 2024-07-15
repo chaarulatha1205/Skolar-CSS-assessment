@@ -1,0 +1,23 @@
+.font1 {
+    font-family: Arial, sans-serif;
+}
+
+.font2 {
+    font-family: 'Courier New', monospace;
+}
+
+.large-text {
+    font-size: 2em;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}

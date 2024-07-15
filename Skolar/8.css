@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: lightcoral;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: lightblue;
+}
+
+.main {
+    grid-area: main;
+    background-color: lightgreen;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightpink;
+}
+
+.nested-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-column: span 2;
+}
+
+.nested-item {
+    background-color: lightgray;
+}

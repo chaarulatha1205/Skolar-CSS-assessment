@@ -1,0 +1,11 @@
+.transform-box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 50px auto;
+    transition: transform 1s ease;
+}
+
+.transform-box:hover {
+    transform: translate(50px, 50px) rotate(45deg) scale(1.5) skew(10deg, 10deg);
+}

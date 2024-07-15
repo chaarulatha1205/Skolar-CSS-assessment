@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.flex-item {
+    padding: 10px;
+    background-color: lightgray;
+    order: 2; /* Example of ordering */
+}
+
+.nested-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nested-flex-item {
+    padding: 5px;
+    background-color: lightblue;
+}

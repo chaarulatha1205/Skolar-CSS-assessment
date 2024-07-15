@@ -1,0 +1,30 @@
+/* Element selector */
+p {
+    color: blue;
+}
+
+/* Class selector */
+.text {
+    font-weight: bold;
+}
+
+/* ID selector */
+#unique {
+    background-color: yellow;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid green;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-size: 1.2em;
+    color: gray;
+}

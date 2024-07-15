@@ -1,0 +1,17 @@
+.color-example {
+    color: blue;
+}
+
+.bg-color-example {
+    background-color: lightgreen;
+}
+
+.gradient-example {
+    background: linear-gradient(to right, red, yellow);
+}
+
+.bg-image-example {
+    background-image: url('path/to/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
